@@ -12,3 +12,44 @@
 
 # Project-local glide cache, RE: https://github.com/Masterminds/glide/issues/736
 .glide/
+
+# compiled output
+/skywriter-app/dist
+/skywriter-app//tmp
+/skywriter-app/out-tsc
+
+# dependencies
+/skywriter-app/node_modules
+
+# IDEs and editors
+/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# misc
+/skywriter-app/.sass-cache
+/skywriter-app/connect.lock
+/skywriter-app/coverage
+/skywriter-app/libpeerconnection.log
+/skywriter-appnpm-debug.log
+/skywriter-apptestem.log
+/skywriter-app/typings
+
+# e2e
+/skywriter-app/e2e/*.js
+/skywriter-app/e2e/*.map
+
+# System Files
+.DS_Store
+Thumbs.db
